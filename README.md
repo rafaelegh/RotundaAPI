@@ -3,7 +3,7 @@ Challenge for Rotunda
 
 ### Running the APP 
 
-    cd Rotunda-API 
+    cd RotundaAPI 
 
     npm install
 
