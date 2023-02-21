@@ -38,5 +38,5 @@ exports.errorAlarm = (req, res, next) => {
     let { newError } = req.body;
 
     logError(newError);
-    res.status(200).json({ response: `error was logged, number of error before minute ${errorCounter}`});
+    res.status(200).json({ response: `error was logged, number of errors in a minute: ${errorCounter}`});
 };
